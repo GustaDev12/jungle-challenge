@@ -57,13 +57,11 @@ async function bootstrap() {
     `)
     .setVersion('1.0.0')
     .setContact(
-      'Equipe Jungle Challenge',
-      'https://github.com/jungle-challenge',
-      'contato@junglechallenge.com'
+      'Gustavo Vinicíus',
+      'https://github.com/GustaDev12',
+      'gustavozinho65@gmail.com'
     )
-    .setLicense('MIT', 'https://opensource.org/licenses/MIT')
     .addServer('http://localhost:3001', 'Servidor de Desenvolvimento')
-    .addServer('https://api.junglechallenge.com', 'Servidor de Produção')
     .addBearerAuth(
       {
         type: 'http',
