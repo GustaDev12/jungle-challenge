@@ -1,0 +1,1 @@
+{"version":3,"file":"register-task.d.ts","sourceRoot":"","sources":["../../../src/events/tasks/register-task.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,kBAAkB,CAAA;AAExC,MAAM,WAAW,mBAAmB;IAChC,OAAO,EAAE,MAAM,CAAC;IAChB,IAAI,EAAE,KAAK,CAAA;CACd"}

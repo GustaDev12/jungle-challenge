@@ -1,0 +1,27 @@
+{
+  "name": "@repo/interfaces",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./users": "./dist/users/index.js",
+    "./tasks": "./dist/tasks/index.js",
+    "./notifications": "./dist/notificationss/index.js",
+    "./events": "./dist/events/index.js",
+    "./events/user": "./dist/events/user/index.js",
+    "./events/tasks": "./dist/events/tasks/index.js",
+    "./audit-logs": "./dist/audit-logs/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w --preserveWatchOutput"
+  },
+  "dependencies": {
+    "@repo/dto": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
